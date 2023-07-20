@@ -1,0 +1,48 @@
+.image {
+  position: absolute;
+  -webkit-animation: appear 1s;
+  animation: appear 2s;
+}
+
+.img1 {
+  margin-top: 50px;
+  width: 400px;
+  height: 400px;
+  left: 20rem;
+}
+
+.img2 {
+  margin-top: 50px;
+  width: 400px;
+  height: 400px;
+  right: 20rem;
+
+}
+
+
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* IE */
+@keyframes appear {
+  0% {
+    opacity: 0;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
